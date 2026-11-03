@@ -1,10 +1,9 @@
-// These are public client settings. Keep database security in Supabase RLS policies.
-// Replace both values with your Supabase Project URL and anon/publishable key.
 window.SUPABASE_CONFIG = {
-  url: "YOUR_SUPABASE_PROJECT_URL",
-  anonKey: "YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY",
-  adminUid: "REPLACE_WITH_ADMIN_USER_UUID"
+  url: "https://ecswdxcyhkiubbadgjqt.supabase.co",
+  anonKey: "sb_publishable_uEWBOlzAg0dSQBuhMDKqzg_OCLEzHKK",
+  adminUid: "7cef6207-5eaf-40bb-a2f1-ebb72e8348ba"
 };
-window.SUPABASE_READY = window.SUPABASE_CONFIG.url.startsWith("https://") &&
-  !window.SUPABASE_CONFIG.url.includes("YOUR_") &&
-  !window.SUPABASE_CONFIG.anonKey.includes("YOUR_");
+window.SUPABASE_CONFIG = window.SUPABASE_CONFIG;
+window.SUPABASE_READY = true;
+window.SUPABASE_READY = true;
+export const SUPABASE_CONFIG = window.SUPABASE_CONFIG;
